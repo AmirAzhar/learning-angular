@@ -1,0 +1,13 @@
+<button (click)="showDetails()">Display Details</button>
+<div *ngIf="isVisible">
+  <p>Username: AmehPls</p>
+  <p>Password: 12345678</p>
+</div>
+<div>
+  <p
+    *ngFor="let click of clicks; let i = index"
+    [ngClass]="{ newClick: i >= 5 }"
+  >
+    Button clicked at: {{ click }}
+  </p>
+</div>

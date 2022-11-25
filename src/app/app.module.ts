@@ -1,3 +1,4 @@
+import { DetailsComponent } from './details/details.component';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
@@ -9,6 +10,7 @@ import { WarningComponent } from './warning/warning.component';
 
 @NgModule({
   declarations: [
+    DetailsComponent,
     AppComponent,
     WarningComponent,
     SuccessComponent,
